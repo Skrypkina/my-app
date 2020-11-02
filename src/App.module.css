@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.rmBtn,
+.addBtn,
+.defBtn,
+.arrfBtn {
+  display: inline-block;
+  padding: 10px;
+  min-width: 40px;
+  border-radius: 4px;
+  color: azure;
+  border: transparent;
+}
+.rmBtn {
+  margin-right: 5px;
+  background-color: red;
+}
+.addBtn {
+  margin-right: 5px;
+  background-color: seagreen;
+}
+.defBtn {
+  background-color: slategray;
+}
+.arrfBtn {
+  margin-right: 5px;
+  background-color: tomato;
+}
+.addBtn:focus {
+  background-color: teal;
+}
+.active {
+  width: 400px;
+  height: 40px;
+  background-color: lightpink;
+  color: crimson;
+  margin: auto;
+  margin-top: 20px;
+}
